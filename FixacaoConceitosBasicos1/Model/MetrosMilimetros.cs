@@ -8,11 +8,9 @@ namespace FixacaoConceitosBasicos1.Model
 {
     internal class MetrosMilimetros
     {
-        public static double Converter()
+        public static double Converter(double valor)
         {
-            double metros = 1;
-            double milimetros = metros * 1000;
-            Assert.AreEqual(MetrosMilimetros.Converter(metros), milimetros);
+            return valor * 1000;
         }
     }
 }

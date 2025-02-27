@@ -8,12 +8,9 @@ namespace FixacaoConceitosBasicos1.Model
 {
     internal class CalculaDesconto
     {
-        public static double Calcular()
+        public static double Calcular(double valor, double desconto)
         {
-            double valor = 100;
-            double desconto = 0.1;
-            double valorComDesconto = valor - (valor * desconto);
-            Assert.AreEqual(CalculaDesconto.Calcular(valor, desconto), valorComDesconto);
+            return valor (valor * desconto);
         }
     }
 }

@@ -8,12 +8,9 @@ namespace FixacaoConceitosBasicos1.Model
 {
     internal class CalculaAumento
     {
-        public static double Calcular()
+        public static double Calcular(double salario, double aumento)
         {
-            double salario = 1000;
-            double aumento = 0.1;
-            double salarioAumentado = salario + (salario * aumento);
-            Assert.AreEqual(CalculaAumento.Calcular(salario, aumento), salarioAumentado);
+           return salario + (salario * aumento);
         }
     }
 }
