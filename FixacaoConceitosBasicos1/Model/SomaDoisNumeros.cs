@@ -12,6 +12,5 @@ namespace FixacaoConceitosBasicos1.Model
         {
             return num1 + num2;
         }
-
     }
 }
