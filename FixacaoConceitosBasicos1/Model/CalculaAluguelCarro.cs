@@ -14,5 +14,6 @@ namespace FixacaoConceitosBasicos1.Model
         {
            return (CalculaAluguelCarro.valorDiaria * dias) + ((quilometragemFinal - quilometragemInicial) * CalculaAluguelCarro.valorQuilometro);
         }
+
     }
 }

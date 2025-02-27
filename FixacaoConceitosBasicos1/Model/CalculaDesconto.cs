@@ -12,5 +12,6 @@ namespace FixacaoConceitosBasicos1.Model
         {
             return valor (valor * desconto);
         }
+
     }
 }
