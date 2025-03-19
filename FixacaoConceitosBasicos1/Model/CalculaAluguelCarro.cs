@@ -10,7 +10,7 @@ namespace FixacaoConceitosBasicos1.Model
     {
         public static double valorDiaria = 95;
         public static double valorQuilometro = 0.35;
-        public static double Calcular(int dias, int quilometragemInicial, int quilometragemFinal)
+        public static int Calcular(int dias, int quilometragemInicial, int quilometragemFinal)
         {
            return (CalculaAluguelCarro.valorDiaria * dias) + ((quilometragemFinal - quilometragemInicial) * CalculaAluguelCarro.valorQuilometro);
         }
